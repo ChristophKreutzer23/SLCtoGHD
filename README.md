@@ -31,3 +31,12 @@ To activate dataref control, set **jd/ghd/drfcontrol** to **1**. Setting **jd/gh
 | jd/ghd/select_23 | unknown |
 | jd/ghd/select_24 | unknown |
 | jd/ghd/select_25 | unknown |
+
+
+## Aircraft datarefs:
+
+Currently depending on aircraft specific datarefs.
+
+### IDEA
+
+**Rewrite** using *own newly created* datarefs and writing plugin for each supported plane, that simply sets the *own* datarefs according to aircraft specific ones (adapter plugins)
